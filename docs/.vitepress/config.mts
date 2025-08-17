@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Claude Code Hub 提供 Claude Code 的使用教程、实战案例与最佳实践，让你更快掌握 AI 编程工具",
   ignoreDeadLinks: true,
   // 部署到 claudecodehub.github.io 用户页面，无需设置 base
+  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
