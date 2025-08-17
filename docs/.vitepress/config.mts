@@ -7,6 +7,45 @@ export default defineConfig({
   ignoreDeadLinks: true,
   // 部署到 claudecodehub.github.io 用户页面，无需设置 base
   base: '/',
+  
+  // SEO 优化配置
+  head: [
+    ['meta', { name: 'keywords', content: 'Claude Code, AI编程, 编程助手, Claude, Anthropic, 拼车, 教程, 最佳实践, 开发工具' }],
+    ['meta', { name: 'author', content: 'Claude Code Hub' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Claude Code Hub - AI编程助手使用指南' }],
+    ['meta', { property: 'og:description', content: 'Claude Code Hub 提供 Claude Code 的使用教程、实战案例与最佳实践，让你更快掌握 AI 编程工具' }],
+    ['meta', { property: 'og:url', content: 'https://claudecodehub.github.io' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Claude Code Hub - AI编程助手使用指南' }],
+    ['meta', { name: 'twitter:description', content: 'Claude Code Hub 提供 Claude Code 的使用教程、实战案例与最佳实践，让你更快掌握 AI 编程工具' }],
+    ['link', { rel: 'canonical', href: 'https://claudecodehub.github.io' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['meta', { name: 'googlebot', content: 'index, follow' }],
+    // 结构化数据
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Claude Code Hub",
+      "description": "Claude Code Hub 提供 Claude Code 的使用教程、实战案例与最佳实践，让你更快掌握 AI 编程工具",
+      "url": "https://claudecodehub.github.io",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Claude Code Hub"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://claudecodehub.github.io/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "keywords": ["Claude Code", "AI编程", "编程助手", "Claude", "Anthropic", "拼车", "教程", "最佳实践", "开发工具"]
+    })]
+  ],
+  
+  // 站点地图配置
+  sitemap: {
+    hostname: 'https://claudecodehub.github.io'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
