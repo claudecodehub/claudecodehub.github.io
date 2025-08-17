@@ -16,11 +16,14 @@ hero:
       link: /carpooling-instructions
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 📚 Claude Code 文档指南
+    details: 从入门到精通，完整的 Claude Code 使用教程和最佳实践
+    link: /overview
+  - title: 🚗 拼车社群分享
+    details: 官方拼车群二维码和拼车使用指南，降低费用共享资源
+    link: /carpool-community
+  - title: ⚙️ 高级配置技巧
+    details: 深入了解 MCP、GitHub Actions、钩子等高级功能配置
+    link: /setup
 ---
 
