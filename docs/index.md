@@ -22,8 +22,8 @@ features:
   - title: 🚗 拼车社群分享
     details: 官方拼车群二维码和拼车使用指南，降低费用共享资源
     link: /carpool-community
-  - title: ⚙️ 高级配置技巧
-    details: 深入了解 MCP、GitHub Actions、钩子等高级功能配置
-    link: /setup
+  - title: 🔄 常见工作流
+    details: 掌握 Claude Code 的常用工作流程和开发模式
+    link: /common-workflows
 ---
 
