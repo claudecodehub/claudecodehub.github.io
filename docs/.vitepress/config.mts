@@ -38,7 +38,7 @@ export default defineConfig({
         "target": "https://claudecodehub.github.io/?q={search_term_string}",
         "query-input": "required name=search_term_string"
       },
-      "keywords": ["Claude Code", "AI编程", "编程助手", "Claude", "Anthropic", "拼车", "教程", "最佳实践", "开发工具"]
+      "keywords": ["Claude Code", "AI编程", "编程助手", "Claude", "Anthropic", "拼车", "教程", "最佳实践", "开发工具", "Claude Code 国内", "Claude Code 中国", "Claude Code 封号"]
     })]
   ],
   
