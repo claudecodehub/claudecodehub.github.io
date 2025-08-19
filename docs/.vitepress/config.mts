@@ -72,7 +72,6 @@ export default defineConfig({
         items: [
           { text: '概述', link: '/overview' },
           { text: '快速开始', link: '/quickstart' },
-          { text: '高级设置', link: '/setup' },
           { text: '常见工作流程', link: '/common-workflows' },
           { text: 'Claude Code SDK', link: '/sdk' },
           { text: '子代理', link: '/sub-agents' },
