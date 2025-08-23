@@ -24,10 +24,8 @@ claude
 如果不想每次运行 claude 命令时都设置环境变量，可以将这些环境变量写入您的 shell 配置文件中。如果您使用的是 bash 或 zsh，可以将以下内容添加到您的 ~/.bash_profile、~/.bashrc 或 ~/.zshrc 文件中：
 
 ```shell
-cd your-project-folder
 export ANTHROPIC_BASE_URL=我们给你的URL
 export ANTHROPIC_AUTH_TOKEN=我们给你的TOKEN
-claude
 ```
 
 重启终端后，就可以直接使用 claude 命令来使用了，不需要每次设置环境变量。
